@@ -75,3 +75,12 @@ button.addEventListener("click", function() {
 
 // Append the button to the document body (or any other desired parent element)
 document.body.appendChild(button);
+
+
+
+// add link to resportiy 
+
+const gitHubLink = document.createElement("a");
+gitHubLink.href = "https://github.com/Ameera-nh/ameera-nh.github.io"
+gitHubLink.textContent = "View on GitHub"
+document.body.appendChild(gitHubLink)
